@@ -1,7 +1,9 @@
 var map;
 
 $(document).ready(function() {
-    initMap();
+    if ($('#mapContainer').length) {
+        initMap();
+    }
 });
 
 

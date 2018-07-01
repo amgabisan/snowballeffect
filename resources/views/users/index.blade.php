@@ -4,7 +4,7 @@
 
 <h2>User List</h2>
 <br>
-<table class="table table-striped table-bordered" id="users-list">
+<table class="table table-striped table-bordered dt-responsive nowrap" id="users-list" style="width: 100%">
     <thead>
         <tr>
             <th class="text-center">First Name</th>
