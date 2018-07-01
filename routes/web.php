@@ -16,3 +16,4 @@
 //});
 
 Route::get('/', 'UsersController@index');
+Route::get('/{id}', 'UsersController@show');

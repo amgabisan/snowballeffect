@@ -27,3 +27,7 @@ body > .container {
   padding-right: 15px;
   padding-left: 15px;
 }
+
+#userdetails-table td  {
+    border: 1px solid #ffffff;
+}

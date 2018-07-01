@@ -11,6 +11,7 @@
             <th class="text-center">Last Name</th>
             <th class="text-center">Email</th>
             <th class="text-center">Website Address</th>
+            <th class="text-center"></th>
         </tr>
     </thead>
     <tbody>
@@ -29,6 +30,9 @@
             </td>
             <td class="text-center">
                 <a href="{{ $user['website'] }}" target="_blank">{{ $user['website'] }}</a>
+            </td>
+            <td class="text-center">
+                <a href="/{{ $user['id'] }}" class="btn btn-dark">View User Details</a>
             </td>
         </tr>
         @endforeach
